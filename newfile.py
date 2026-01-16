@@ -25,3 +25,21 @@ print(df)
 
 # 5. Why do we use a requirements.txt file?
 # Requirements.txt file allows anyone to recreate the same Python environment by installing the same package versions in different places and times.
+
+
+# 1. Write yourself a step by step recipe for creating a new working project environment
+# You don't need to include "loading data"
+# 1. Clone the Repo
+# 2. Open the Codespace in your local VS Code
+# 3. Create a virtual environment
+# 4. Load/(create if needed) the requirements.txt file
+
+
+# 1. create a new project folder and navigate into it using the terminal
+# 2. initialize a new Git repository to track project changes
+# 3. create a Python virtual environment using python3 -m venv .venv
+# 4. activate the virtual environment to isolate project dependencies
+# 5. install required Python packages using pip install -r requirements.txt
+# 6. verify the environment is active and dependencies are installed correctly
+# 7. add a .gitignore file and ensure the virtual environment folder is excluded from version control
+# 8. commit the initial project setup to Git
